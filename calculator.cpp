@@ -1,5 +1,12 @@
 #include <iostream>
 
+int calc(int a, int b){
+
+    return a + b;
+
+}
+
+
 int main(){
 
     int fnum;
@@ -10,6 +17,6 @@ int main(){
     std::cout << "Введите второе число: ";
     std::cin >> snum;
 
-    std::cout << fnum << " + " << snum << " = " << fnum + snum << std::endl;
+    std::cout << calc(fnum, snum) << std::endl;
     return 0;
 }
